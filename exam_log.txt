@@ -1,0 +1,72 @@
+    1  mkdir linux_practice
+    2  cd linux_peactice
+    3  cd linux_practice
+    4  touch notes.txt
+    5  ls
+    6  echo "Hello, Linux" > notes.txt
+    7  ls
+    8  echo "this is a practical exam." >> notes.txt
+    9  head -n 1 notes.txt
+   10  tail -n 1 notws.txt
+   11  tail -n 1 notes.txt
+   12  mkdir -p sub
+   13  cd sub
+   14  mv notes.txt sub
+   15  mv notes.txt mv sub
+   16  mv notes.txt linux_practice/sub/
+   17  mv notes.txt linux_practice/sub
+   18  mv notes.txt linux_practice/sub/
+   19  ls
+   20  cd..
+   21  cd ..
+   22  ls
+   23  mv notes.txt sub
+   24  ls
+   25  cd sub
+   26  ls
+   27  cp notes.txt linux_practice
+   28  ls
+   29  cd ..
+   30  ls
+   31  cd sub
+   32  rm linux_practice
+   33  ls
+   34  mv linux_practice/sub linux_practice/practice_subdir
+   35  cd ..
+   36  mv sub practice_subdir
+   37  ls
+   38  cd practice_subdir
+   39  cp notes.txt ../
+   40  ls
+   41  cd ..
+   42  ls
+   43  help
+   44  date
+   45  system uptime
+   46  uptime
+   47  du -sh
+   48  ssh -v
+   49  php -v
+   50  mysql --v
+   51  apache2 -v
+   52  httpd -v
+   53  python --v
+   54  python --versipn
+   55  python --version
+   56  java -version
+   57  gh repo clone https://github.com/AMB2024/230767556-BALLESTRA.git
+   58  Cd
+   59  cd
+   60  ls
+   61  cd my-repo
+   62  ls
+   63  cd ..
+   64  cd my_repo
+   65  ls
+   66  cd ..
+   67  cd 230768557-BALLESTRA
+   68  cd 230768557-BALLESTRA Anthony
+   69  cd 230767556-BALLESTRA
+   70  ls
+   71  git checkout -b finalexam
+   72  history >exam_log.txt
