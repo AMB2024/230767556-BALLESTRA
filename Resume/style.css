@@ -41,24 +41,22 @@ body {
     margin-bottom: 10px;
   }
 
-  /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
-/* Container for skill bars */
 .container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
-}
+  width: 50%; 
+  background-color: #ddd;
+} 
 
 .skills {
   text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom:5px; /* Add bottom padding */
   color: white; /* White text color */
 }
 
-.html {width: 90%; background-color: #04AA6D;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.html {width: 30%; background-color: hsl(0, 0%, 0%);} 
+.css {width: 20%; background-color: #000000;} 
+.js {width: 10%; background-color: #000000;} 
+.php {width: 10%; background-color: #000000;} 
   

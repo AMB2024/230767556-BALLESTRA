@@ -24,22 +24,22 @@
       <h3>SKILLS</h3>
       <p>HTML</p>
 <div class="container">
-  <div class="skills html">90%</div>
+  <div class="skills html">30%</div>
 </div>
 
 <p>CSS</p>
 <div class="container">
-  <div class="skills css">80%</div>
+  <div class="skills css">20%</div>
 </div>
 
 <p>JavaScript</p>
 <div class="container">
-  <div class="skills js">65%</div>
+  <div class="skills js">10%</div>
 </div>
 
 <p>PHP</p>
 <div class="container">
-  <div class="skills php">60%</div>
+  <div class="skills php">10%</div>
 </div>
     </div>
 
