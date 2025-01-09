@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+    <div>
+      <h1>ANTHONY M BALLESTRA</h1>
+      <p>University of the Cordilleras</p>
+    </div>
+
+    <hr>
+
+    <div>
+      <h2>Personal Information</h2>
+      <p><strong>Age:</strong>19 </p>
+      <p><strong>Number:</strong>23-0767-556 </p>
+      <p><strong>Location:</strong>La Trinidad </p>
+      <p><strong>Email:</strong>amb7556@students.uc-bcf.edu.ph</p>
+    </div>
+
+    <div>
+      <h3>SKILLS</h3>
+      <p>HTML</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+
+<p>PHP</p>
+<div class="container">
+  <div class="skills php">60%</div>
+</div>
+    </div>
+
+   
+
+  </body>
+</html>
