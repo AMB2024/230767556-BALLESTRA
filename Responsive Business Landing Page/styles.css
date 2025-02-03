@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8; /* Light background color */
+}
+
+
+nav {
+    margin-left: auto; /* Push the nav to the right */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px; /* Space out the navigation items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Dark color for text */
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
