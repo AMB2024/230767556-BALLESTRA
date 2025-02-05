@@ -9,7 +9,7 @@
 
 body {
     background-color: #121212; 
-    color: #ffffff; 
+    color: #b91919; 
 }
 
 /* Header and Navigation */
@@ -60,7 +60,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #4d3838; 
+    color: #b91919; 
 }
 
 /* Hero Section */
@@ -91,6 +91,8 @@ nav {
     font-size: 1.5rem;
     margin-top: 10px;
 }
+
+
 
 .cta-button {
     padding: 12px 25px;
@@ -123,10 +125,12 @@ nav {
 
 .about p {
     font-size: 1.2rem;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     line-height: 1.6;
+    color: #ffffff;
 }
+
 
 .about-image {
     width: 100%;
