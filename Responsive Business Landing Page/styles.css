@@ -9,7 +9,7 @@
 
 body {
     background-color: #121212; 
-    color: #b91919; 
+    color: #e68a00; /* Changed to e68a00 */
 }
 
 /* Header and Navigation */
@@ -60,7 +60,17 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #b91919; 
+    color: #e68a00; /* Changed to e68a00 */
+}
+
+/* Styling for the 'Hub' Box */
+.hub-box {
+    display: inline-block;
+    padding: 5px 12px;
+    background-color: #e68a00; /* Changed to e68a00 */
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 /* Hero Section */
@@ -87,28 +97,21 @@ nav {
     font-size: 3rem;
 }
 
-.hero p {
-    font-size: 1.5rem;
-    margin-top: 10px;
-}
-
-
-
+/* CTA Button */
 .cta-button {
     padding: 12px 25px;
     font-size: 1rem;
-    color: white;
-    background-color: #b91919;
+    color: rgb(0, 0, 0);
+    background-color: #e68a00; /* Changed to e68a00 */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    margin-top: 80px; 
     transition: 0.3s;
 }
 
 .cta-button:hover {
-    background-color: #8f1414;
+    background-color: #cc7a00; /* Slightly darker for hover */
 }
 
 /* About Section */
@@ -130,7 +133,6 @@ nav {
     line-height: 1.6;
     color: #ffffff;
 }
-
 
 .about-image {
     width: 100%;
@@ -175,7 +177,6 @@ nav {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect */
 .service-item:hover {
     transform: translateY(-10px);
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
@@ -184,14 +185,13 @@ nav {
 .service-item i {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: #b91919;
+    color: #e68a00; /* Changed to e68a00 */
 }
 
 .service-item h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
-
 
 /* Contact Section */
 .contact {
@@ -211,39 +211,6 @@ nav {
     color: #cccccc;
 }
 
-.contact-form {
-    max-width: 500px;
-    margin: 20px auto;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: 1px solid #444;
-    background: #222;
-    color: white;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-.contact-form button {
-    width: 100%;
-    padding: 12px;
-    font-size: 1rem;
-    background-color: #b91919;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.contact-form button:hover {
-    background-color: #9b1515;
-}
-
 /* Footer */
 footer {
     background-color: #000;
@@ -254,7 +221,7 @@ footer {
     bottom: 0;
     width: 100%;
     font-size: 14px;
-    border-top: 2px solid #b91919;
+    border-top: 2px solid #e68a00; /* Changed to e68a00 */
 }
 
 .footer-content {
